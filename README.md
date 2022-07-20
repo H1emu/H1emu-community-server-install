@@ -1,4 +1,5 @@
 <h1 dir="auto"><img src="https://i.gyazo.com/5d2322450b17f0692fd7d48014cc70d6.png" alt="" /></h1>
+<h1 dir="auto">You must have approval from @ADMIN before installing community server to get added to the community server list</h1>
 <h1 dir="auto">H1emu-community-server-install</h1>
 <p dir="auto">Install H1emu community server</p>
 <p dir="auto">(Tested with ubuntu 20.4 Clean install) (may work on other Distros&nbsp; this script will force install some packages &amp; upgrade old packages **use at your own risk**)</p>
