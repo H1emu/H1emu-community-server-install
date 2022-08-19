@@ -36,6 +36,7 @@
 <p dir="auto">CONTACT @ADMIN TO GET YOUR server:Id</p>
 <p dir="auto">CONTACT @ADMIN TO GET YOUR nameId:**** Server Name Strings <a href="https://github.com/QuentinGruber/h1z1-string-finder/blob/main/strings.log">HERE</a></p>
 <p dir="auto">Change&nbsp; ( serverAddress:"YourServerip:1117" )</p>
+<p dir="auto">Change&nbsp; ( PingAddress:"YourServerip:1117" )</p>
 <div class="fieldset Number ng-star-inserted">
 <div class="key">&nbsp;</div>
 </div>
