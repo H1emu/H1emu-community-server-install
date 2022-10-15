@@ -40,6 +40,8 @@
 <div class="fieldset Number ng-star-inserted">
 <div class="key">&nbsp;</div>
 </div>
+<h2>Setup start.sh Script</h2>
+<p dir="auto">Locate export WORLD_ID="*" and set to your world id issued by @ADMIN</p>
 <p dir="auto"><img src="https://i.gyazo.com/9010a3af6b02b803f9d2922581f5b771.png" alt="" /></p>
 <p dir="auto"><img src="https://i.gyazo.com/4775ad7f732383e520aaf5bd5b705eca.png" alt="" /></p>
 
