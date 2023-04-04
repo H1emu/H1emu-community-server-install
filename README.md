@@ -2,7 +2,7 @@
 <h1 dir="auto">You must have approval from @ADMIN before installing community server to get added to the community server list</h1>
 <h1 dir="auto">H1emu-community-server-install</h1>
 <p dir="auto">Install H1emu community server</p>
-<p dir="auto">(Tested with ubuntu 20.4 Clean install) (may work on other Distros&nbsp; this script will force install some packages &amp; upgrade old packages **use at your own risk**)</p>
+<p dir="auto">(Tested with Ubuntu 20.4 Clean install) (may work on other distros&nbsp; this script will force install some packages &amp; upgrade old packages **use at your own risk**)</p>
 <ol>
 <li><code>sudo</code></li>
 <li><code>apt install git -y</code></li>
@@ -22,20 +22,19 @@
 <tr>
 <td>Start server</td>
 <td>cd /H1emu-community-server-install/h1z1-server/</td>
-<td>Then sudo ./start.sh</td>
+<td>RUN >> <code>pm2 kill && npm install && ./start.sh && pm2 log</code></td>
 </tr>
 <tr>
-<td>Show server output</td>
-<td>pm2 monitor</td>
+
 </tr>
 </tbody>
 </table>
-<h2>Setup MongoDB Settings</h2>
-<p dir="auto">You must Block this port using firewall once setup is complete port 4321!!!</p>
-<p dir="auto">Open a webbrowser to <a href="http://ip:4321">http://serverip:4321</a></p>
-<p dir="auto">Locate h1server in your mongo db</p>
-<p dir="auto">CONTACT @ADMIN TO GET YOUR server:Id</p>
-<p dir="auto">CONTACT @ADMIN TO GET YOUR nameId:**** Server Name Strings <a href="https://github.com/QuentinGruber/h1z1-string-finder/blob/main/strings.log">HERE</a></p>
-<div class="fieldset Number ng-star-inserted">
-<div class="key">&nbsp;</div>
-</div>
+<h2>Updating Community Server Info</h2>
+<p dir="auto">To update the H1emu community server to the latest version, follow these steps:</p>
+<ol>
+<li>Open your terminal and navigate to the directory where the H1emu community server is installed.</li>
+<li>Run the command <code>git pull</code> to pull the latest update from the GitHub repository.</li>
+<li>Use <code>git checkout master</code> to select the latest master build.</li>
+<li>Restart the server using pm2 method described in the previous instructions.</li>
+</ol>
+<p dir="auto">Remember to back up your data before updating the server info, and be aware of any potential risks or issues that could arise during the update process.</p>
