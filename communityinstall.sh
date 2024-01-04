@@ -39,7 +39,7 @@ systemctl enable mongod
 npm i pm2 -g
 pm2 kill
 pm2 install pm2-logrotate
-npm i -g mongo-gui
+npm i -g mongo-gui@0.0.18
 pm2 start mongo-gui
 npm cache clean -f
 npm install -g n
